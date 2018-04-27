@@ -25,7 +25,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Multiplier is Port(
 X : in STD_LOGIC_VECTOR(2 downto 0);
 Y : in STD_LOGIC_VECTOR(2 downto 0);
-R : out STD_LOGIC_VECTOR(5 downto 0));
+R : out STD_LOGIC_VECTOR(0 downto 5));
 end Multiplier;
 
 architecture Behavioral of Multiplier is
@@ -55,7 +55,7 @@ signal prop, gen, bits2to4 : STD_LOGIC_VECTOR(2 downto 0);
 signal s01,s10,s11,s20,s21 : STD_LOGIC;
 begin
 R(0) <= X(0) and Y(0);
-R(2 to 4) <= bits2to4;
+R(4 downto 2) <= bits2to4;
 prop(0) <= X(0) and Y(2);
 prop(1) <= X(1) and Y(2);
 prop(2) <= X(2) and Y(2);
@@ -64,7 +64,7 @@ s10 <= X(1) and Y(0);
 s11 <= X(1) and Y(1);
 s20 <= X(2) and Y(0);
 s21 <= X(2) and Y(1);
-gen <= sig(2 to 4);
+gen <= sig(4 downto 2);
 ha0: HA Port map(C => s01, D => s10, HASum => R(1), HACout => sig(0));
 fa0: FA Port map(A => s11, B => s20, Cin => '0', Sum => sig(2), Cout => sig(1));
 fa1: FA Port map(A => '0', B => s21, Cin => sig(0), Sum => sig(3), Cout => sig(4));
