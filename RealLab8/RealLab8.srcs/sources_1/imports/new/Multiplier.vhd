@@ -25,7 +25,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Multiplier is Port(
 X : in STD_LOGIC_VECTOR(2 downto 0);
 Y : in STD_LOGIC_VECTOR(2 downto 0);
-R : out STD_LOGIC_VECTOR(0 downto 5));
+R : out STD_LOGIC_VECTOR(5 downto 0));
 end Multiplier;
 
 architecture Behavioral of Multiplier is
