@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Apr 12 17:28:20 2018
+# Process ID: 1740
+# Current directory: C:/Users/CPEG202/Desktop/Lab6part1/Lab6part1.runs/synth_1
+# Command line: vivado.exe -log mux_demux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_demux.tcl
+# Log file: C:/Users/CPEG202/Desktop/Lab6part1/Lab6part1.runs/synth_1/mux_demux.vds
+# Journal file: C:/Users/CPEG202/Desktop/Lab6part1/Lab6part1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux_demux.tcl -notrace
