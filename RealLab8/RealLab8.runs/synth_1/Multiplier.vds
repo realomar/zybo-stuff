@@ -19,3 +19,16 @@ INFO: Helper process launched with PID 8600
 ---------------------------------------------------------------------------------
 Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 344.629 ; gain = 99.863
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier' [C:/Users/CPEG202/Desktop/zybo-stuff/RealLab8/RealLab8.srcs/sources_1/imports/new/Multiplier.vhd:31]
+WARNING: [Synth 8-506] null port 'R' ignored [C:/Users/CPEG202/Desktop/zybo-stuff/RealLab8/RealLab8.srcs/sources_1/imports/new/Multiplier.vhd:28]
+ERROR: [Synth 8-690] width mismatch in assignment; target has 0 bits, source has 1 bits [C:/Users/CPEG202/Desktop/zybo-stuff/RealLab8/RealLab8.srcs/sources_1/imports/new/Multiplier.vhd:57]
+ERROR: [Synth 8-285] failed synthesizing module 'Multiplier' [C:/Users/CPEG202/Desktop/zybo-stuff/RealLab8/RealLab8.srcs/sources_1/imports/new/Multiplier.vhd:31]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 396.664 ; gain = 151.898
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 27 04:56:27 2018...
