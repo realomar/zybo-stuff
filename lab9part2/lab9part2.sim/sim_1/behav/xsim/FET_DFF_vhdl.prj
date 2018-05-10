@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab9part2.srcs/sources_1/new/FET_DFF.vhd" \
+
+# Do not sort compile order
+nosort
