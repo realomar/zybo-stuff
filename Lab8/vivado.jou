@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 27 01:40:12 2018
+# Process ID: 968
+# Current directory: C:/Users/CPEG202/Desktop/zybo-stuff/Lab8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent96 C:\Users\CPEG202\Desktop\zybo-stuff\Lab8\Lab8.xpr
+# Log file: C:/Users/CPEG202/Desktop/zybo-stuff/Lab8/vivado.log
+# Journal file: C:/Users/CPEG202/Desktop/zybo-stuff/Lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/CPEG202/Desktop/zybo-stuff/Lab8/Lab8.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
