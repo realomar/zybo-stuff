@@ -1,0 +1,118 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 7348
+License: Customer
+
+Current time: 	Thu May 10 23:56:39 EDT 2018
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	CPEG202
+User home directory: C:/Users/CPEG202
+User working directory: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/CPEG202/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/CPEG202/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/CPEG202/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/vivado.log
+Vivado journal file location: 	C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/vivado.jou
+Engine tmp dir: 	C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/.Xil/Vivado-7348-DESKTOP-J63E51U
+
+GUI allocated memory:	170 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 500 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\CPEG202\Desktop\zybo-stuff\Lab10Part1\Lab10Part1.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 55 MB (+55159kb) [00:00:07]
+// [Engine Memory]: 459 MB (+329841kb) [00:00:07]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.xpr 
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+1225kb) [00:00:09]
+// [Engine Memory]: 491 MB (+9900kb) [00:00:09]
+// [GUI Memory]: 70 MB (+8874kb) [00:00:11]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 36 MB. Current time: 5/10/18 11:56:39 PM EDT
+// Project name: Lab10Part1; location: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 715.801 ; gain = 30.656 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 521 MB (+4784kb) [00:00:17]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 110 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (N, x): TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// bs (cj):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu May 10 23:58:37 2018] Launched synth_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/synth_1/runme.log [Thu May 10 23:58:37 2018] Launched impl_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 77 MB (+2866kb) [00:02:34]
+// ah (cj): Synthesis Failed: addNotify
+// [GUI Memory]: 86 MB (+6128kb) [00:02:37]
