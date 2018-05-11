@@ -61,7 +61,7 @@ b: inout std_logic_vector(3 downto 0));
 end component;
 
 begin
-clk0: clk port map(c125m => sysclk, c1 => clockout r => rst);
+clk0: clk port map(c125m => sysclk, c1 => clockout, r => rst);
 ssdecoder0: SSDecoder port map(ctrl => counterout, dispOut => B);
 counter0: counter port map(clk => clockout, rst => rst, b => counterout);
 

@@ -116,3 +116,117 @@ dismissDialog("Generate Bitstream"); // bs (cj)
 // [GUI Memory]: 77 MB (+2866kb) [00:02:34]
 // ah (cj): Synthesis Failed: addNotify
 // [GUI Memory]: 86 MB (+6128kb) [00:02:37]
+// Elapsed time: 39 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2715] syntax error near r [C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.srcs/sources_1/new/increment.vhd:64]. ]", 1, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\CPEG202\Desktop\zybo-stuff\Lab10Part1\Lab10Part1.srcs\sources_1\new\increment.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah (O, cj)
+// PAPropertyPanels.initPanels (increment.vhd) elapsed time: 0.2s
+// [GUI Memory]: 98 MB (+7752kb) [00:03:04]
+// Elapsed time: 39 seconds
+selectCodeEditor("increment.vhd", 362, 416); // cd (w, cj)
+// [GUI Memory]: 104 MB (+1457kb) [00:03:34]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cj):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: DG_GRAPH_GENERATED
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Fri May 11 00:00:09 2018] Launched synth_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 547 MB. GUI used memory: 43 MB. Current time: 5/11/18 12:00:13 AM EDT
+// [Engine Memory]: 547 MB (+814kb) [00:03:48]
+// TclEventType: RUN_FAILED
+// ah (cj): Synthesis Failed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Failed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2715] syntax error near rst [C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.srcs/sources_1/new/increment.vhd:64]. ]", 1, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\CPEG202\Desktop\zybo-stuff\Lab10Part1\Lab10Part1.srcs\sources_1\new\increment.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah (O, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("increment.vhd", 205, 418); // cd (w, cj)
+// Elapsed time: 78 seconds
+selectCodeEditor("increment.vhd", 168, 423); // cd (w, cj)
+selectCodeEditor("increment.vhd", 221, 416); // cd (w, cj)
+selectCodeEditor("increment.vhd", 348, 418); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (a, f): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri May 11 00:02:28 2018] Launched synth_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/synth_1/runme.log [Fri May 11 00:02:28 2018] Launched impl_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 53 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Vivado 12-584] No ports matched 'R[7]'. [C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.srcs/constrs_1/imports/Desktop/Zybo-Z7-Master.xdc:140]. ]", 1, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\CPEG202\Desktop\zybo-stuff\Lab10Part1\Lab10Part1.srcs\constrs_1\imports\Desktop\Zybo-Z7-Master.xdc;-;;-;16;-;line;-;140;-;;-;16;-;"); // ah (O, cj)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "increment.vhd", 1); // k (j, cj)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cj)
+// aN (cj): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aN)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aN (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bs (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri May 11 00:03:39 2018] Launched synth_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/synth_1/runme.log [Fri May 11 00:03:39 2018] Launched impl_1... Run output will be captured here: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part1/Lab10Part1.runs/impl_1/runme.log 
+// bs (cj):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bs (cj)
