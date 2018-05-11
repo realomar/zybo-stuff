@@ -41,11 +41,13 @@ end increment;
 architecture Behavioral of increment is
 signal clockout : std_logic;
 signal counterout: std_logic_vector(3 downto 0);
+signal clockBoi : std_logic;
 
 component clk is port(
     c125m: in std_logic;
     c1: out std_logic;
-    r: in std_logic
+    r: in std_logic;
+    do: in std_logic
     );
 end component;
 
@@ -61,8 +63,8 @@ b: inout std_logic_vector(3 downto 0));
 end component;
 
 begin
-clk0: clk port map(c125m => sysclk, c1 => clockout, r => rst);
+clk0: clk port map(c125m => sysclk, c1 => clockBoi, r => rst, do => inc);
 ssdecoder0: SSDecoder port map(ctrl => counterout, dispOut => B);
-counter0: counter port map(clk => clockout, rst => rst, b => counterout);
+counter0: counter port map(clk => clockBoi, rst => rst, b => counterout);
 
 end Behavioral;

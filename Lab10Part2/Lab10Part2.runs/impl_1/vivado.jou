@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri May 11 01:16:29 2018
+# Process ID: 348
+# Current directory: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part2/Lab10Part2.runs/impl_1
+# Command line: vivado.exe -log increment.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source increment.tcl -notrace
+# Log file: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part2/Lab10Part2.runs/impl_1/increment.vdi
+# Journal file: C:/Users/CPEG202/Desktop/zybo-stuff/Lab10Part2/Lab10Part2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source increment.tcl -notrace

@@ -34,7 +34,8 @@ use IEEE.NUMERIC_STD.ALL;
 entity clk is port(
     c125m: in std_logic;
     c1: out std_logic;
-    r: in std_logic
+    r: in std_logic;
+    do: in std_logic
     );
 end clk;
 
@@ -43,6 +44,7 @@ signal count: integer range 0 to 63000000;
 signal c: std_logic;
 begin
 process(c125m,r) begin
+if(do = '1') then
 if (r = '1') then
 count <= 0; c <= '0';
 elsif (c125m='1' and c125m'event) then
@@ -50,7 +52,7 @@ count <= count + 1;
 if (count = 62500000) then
 count <= 0;
 c <= not c;
-end if; end if; end process;
+end if; end if; end if; end process;
 c1 <= c;
 
 end Behavioral;
